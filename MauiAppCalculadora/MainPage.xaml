@@ -64,6 +64,11 @@
                     Clicked="num_3_Clicked"/>
             <Button Grid.Row="4" Grid.Column="3" Style="{StaticResource BotaoLaranja}" x:Name="mais" Text="+"
                     Clicked="mais_Clicked"/>
+
+            <Button Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" Style="{StaticResource BotaoClaro}" x:Name="num_0"
+                    Text="0" Clicked="num_0_Clicked"/>
+            <Button Grid.Row="5" Grid.Column="2" Style="{StaticResource BotaoClaro}" x:Name="ponto" Text="."  Clicked="ponto_Clicked"/>
+            <Button Grid.Row="5" Grid.Column="3" Style="{StaticResource BotaoEscuro}" x:Name="igual" Text="=" Clicked="igual_Clicked" />
         </Grid>
     </ContentPage.Content>
 </ContentPage>

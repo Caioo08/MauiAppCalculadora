@@ -99,6 +99,21 @@
         {
 
         }
+
+        private void num_0_Clicked(System.Object sender, System.EventArgs e)
+        {
+
+        }
+
+        private void ponto_Clicked(System.Object sender, System.EventArgs e)
+        {
+
+        }
+
+        private void igual_Clicked(System.Object sender, System.EventArgs e)
+        {
+
+        }
     }
 
 }
