@@ -28,7 +28,7 @@
         <Grid RowDefinitions="150, *, *, *, *, *, *" 
               RowSpacing="10" ColumnSpacing="10" Margin="10" ColumnDefinitions="*, *, *, *">
             <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" x:Name="visor" Text="0"
-                   HorizontalTextAlignment="End" TextColor="White" FontSize="60"/>
+                   HorizontalTextAlignment="End" TextColor="Black" FontSize="60"/>
             <Button Grid.Row="1" Grid.Column="0" Style="{StaticResource BotaoEscuro}" x:Name="zerar" Text="C"
                     Clicked="zerar_Clicked"/>
             <Button Grid.Row="1" Grid.Column="1" Style="{StaticResource BotaoEscuro}" x:Name="maismenos"
